@@ -1,5 +1,5 @@
 const API_KEY = '8dc674e'; // Replace with your OMDb API key
-const BASE_URL = 'http://www.omdbapi.com/';
+const BASE_URL = 'https://www.omdbapi.com/';
 const API_URL = `${BASE_URL}?apikey=${API_KEY}&s=movie&type=movie`;
 const IMG_URL = '';
 const searchURL = `${BASE_URL}?apikey=${API_KEY}&s=`;
