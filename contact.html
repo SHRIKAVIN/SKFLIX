@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKFLIX - Contact Us</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+        }
+        header {
+            background-color: #141414;
+            padding: 20px 50px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        header img {
+            height: 40px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .contact h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        .contact p {
+            font-size: 1.2em;
+            color: #999;
+            margin-bottom: 20px;
+        }
+        .contact form {
+            display: flex;
+            flex-direction: column;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .contact form label {
+            text-align: left;
+            font-size: 1em;
+            color: #999;
+            margin: 10px 0 5px;
+        }
+        .contact form input, .contact form textarea {
+            background-color: #333;
+            border: 1px solid #555;
+            border-radius: 4px;
+            padding: 12px;
+            font-size: 1em;
+            color: #fff;
+        }
+        .contact form input:focus, .contact form textarea:focus {
+            outline: none;
+            border-color: #e50914;
+        }
+        .contact form textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+        .contact form button {
+            background-color: #e50914;
+            color: #fff;
+            padding: 12px;
+            border: none;
+            border-radius: 4px;
+            font-size: 1em;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        .contact form button:hover {
+            background-color: #b20710;
+        }
+        .contact-info {
+            margin-top: 30px;
+        }
+        .contact-info p {
+            font-size: 1em;
+            color: #999;
+            margin: 10px 0;
+        }
+        footer {
+            background-color: #141414;
+            padding: 20px;
+            color: #737373;
+            text-align: center;
+            font-size: 0.9em;
+        }
+        footer a {
+            color: #737373;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        footer a:hover {
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="LOGO.png" alt="SKFLIX Logo">
+    </header>
+    <div class="container">
+        <section class="contact">
+            <h2>Contact Us</h2>
+            <p>Need help? Reach out to us, and we'll get back to you within 1-2 business days.</p>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <p>Email: support@skflix.com</p>
+                <p>Phone: 1800-555-1234</p>
+                <p>Address: 123 Streaming Avenue, Mumbai, MH 400001, India</p>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>© 2025 SKFLIX. All rights reserved.</p>
+        <p><a href="#">Terms of Use</a> | <a href="#">Privacy Policy</a></p>
+    </footer>
+</body>
+</html>

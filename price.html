@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKFLIX - Pricing</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+        }
+        header {
+            background-color: #141414;
+            padding: 20px 50px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        header img {
+            height: 40px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .pricing h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        .pricing p {
+            font-size: 1.2em;
+            color: #999;
+            margin-bottom: 40px;
+        }
+        .pricing-table {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .pricing-plan {
+            background-color: #1f1f1f;
+            padding: 30px;
+            border-radius: 8px;
+            width: 300px;
+            text-align: center;
+        }
+        .pricing-plan h3 {
+            font-size: 1.8em;
+            margin: 0 0 15px;
+        }
+        .pricing-plan .price {
+            font-size: 2em;
+            color: #e50914;
+            margin: 10px 0;
+        }
+        .pricing-plan ul {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        .pricing-plan ul li {
+            font-size: 1em;
+            color: #999;
+            margin: 10px 0;
+        }
+        .pricing-plan .btn {
+            background-color: #e50914;
+            color: #fff;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 4px;
+            font-size: 1em;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+        .pricing-plan .btn:hover {
+            background-color: #b20710;
+        }
+        footer {
+            background-color: #141414;
+            padding: 20px;
+            color: #737373;
+            text-align: center;
+            font-size: 0.9em;
+        }
+        footer a {
+            color: #737373;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        footer a:hover {
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="LOGO.png" alt="SKFLIX Logo">
+    </header>
+    <div class="container">
+        <section class="pricing">
+            <h2>Choose Your Plan</h2>
+            <p>Stream unlimited movies and TV shows. Cancel anytime.</p>
+            <div class="pricing-table">
+                <div class="pricing-plan">
+                    <h3>Mobile</h3>
+                    <p class="price">₹199/month</p>
+                    <ul>
+                        <li>Stream on 1 mobile device</li>
+                        <li>Standard Definition (SD)</li>
+                        <li>Full content library</li>
+                        <li>Cancel anytime</li>
+                    </ul>
+                    <a href="#" class="btn">Select Plan</a>
+                </div>
+                <div class="pricing-plan">
+                    <h3>Basic</h3>
+                    <p class="price">₹499/month</p>
+                    <ul>
+                        <li>Stream on 1 device</li>
+                        <li>High Definition (HD)</li>
+                        <li>Full content library</li>
+                        <li>Cancel anytime</li>
+                    </ul>
+                    <a href="#" class="btn">Select Plan</a>
+                </div>
+                <div class="pricing-plan">
+                    <h3>Standard</h3>
+                    <p class="price">₹649/month</p>
+                    <ul>
+                        <li>Stream on 2 devices</li>
+                        <li>Full HD (1080p)</li>
+                        <li>Full content library</li>
+                        <li>Cancel anytime</li>
+                    </ul>
+                    <a href="#" class="btn">Select Plan</a>
+                </div>
+                <div class="pricing-plan">
+                    <h3>Premium</h3>
+                    <p class="price">₹799/month</p>
+                    <ul>
+                        <li>Stream on 4 devices</li>
+                        <li>Ultra HD (4K)</li>
+                        <li>Full content library</li>
+                        <li>Cancel anytime</li>
+                    </ul>
+                    <a href="#" class="btn">Select Plan</a>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>© 2025 SKFLIX. All rights reserved.</p>
+        <p><a href="#">Terms of Use</a> | <a href="#">Privacy Policy</a></p>
+    </footer>
+</body>
+</html>
